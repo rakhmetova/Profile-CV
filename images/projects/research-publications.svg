@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-labelledby="title desc">
+  <title id="title">Research publications</title>
+  <desc id="desc">Scientific papers, citation graph, and publication badges.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff8ed"/>
+      <stop offset="1" stop-color="#edf7ff"/>
+    </linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#edf2ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="620" rx="52" fill="url(#bg)"/>
+  <rect x="188" y="105" width="320" height="410" rx="28" fill="url(#paper)" stroke="#535da1" stroke-width="12"/>
+  <path d="M250 190h198M250 246h198M250 302h154M250 406h198" stroke="#94a3b8" stroke-width="16" stroke-linecap="round"/>
+  <rect x="250" y="342" width="84" height="28" rx="14" fill="#14b8a6"/>
+  <rect x="350" y="342" width="98" height="28" rx="14" fill="#535da1"/>
+  <path d="M524 158h82c34 0 62 28 62 62v58" fill="none" stroke="#14b8a6" stroke-width="14" stroke-linecap="round"/>
+  <path d="M522 458h98c42 0 76-34 76-76v-26" fill="none" stroke="#535da1" stroke-width="14" stroke-linecap="round"/>
+  <g fill="#fff" stroke-width="10">
+    <circle cx="690" cy="214" r="54" stroke="#14b8a6"/>
+    <circle cx="690" cy="352" r="54" stroke="#535da1"/>
+    <circle cx="690" cy="490" r="54" stroke="#14b8a6"/>
+  </g>
+  <g fill="#263238" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">
+    <text x="690" y="224" font-size="34">IEEE</text>
+    <text x="690" y="362" font-size="36">S</text>
+    <text x="690" y="500" font-size="34">DOI</text>
+  </g>
+  <g stroke="#535da1" stroke-width="6" opacity=".45">
+    <path d="M635 224l-94 52"/>
+    <path d="M637 352l-96-26"/>
+    <path d="M638 490l-96-52"/>
+  </g>
+  <circle cx="542" cy="276" r="12" fill="#14b8a6"/>
+  <circle cx="542" cy="326" r="12" fill="#535da1"/>
+  <circle cx="542" cy="438" r="12" fill="#14b8a6"/>
+</svg>
