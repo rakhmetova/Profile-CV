@@ -1320,6 +1320,32 @@ a:hover {
   color: var(--primary-color);
 }
 
+.language-switcher {
+  align-items: center;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(244, 212, 154, 0.22);
+  border-radius: 999px;
+  display: inline-flex;
+  gap: 4px;
+  padding: 4px;
+}
+
+.language-switcher a {
+  border-radius: 999px;
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 12px;
+  font-weight: var(--font-weight-bold);
+  letter-spacing: 0.08em;
+  line-height: 1;
+  padding: 9px 11px;
+}
+
+.language-switcher a.active,
+.language-switcher a:hover {
+  background: #f4d49a;
+  color: var(--primary-color);
+}
+
 .custom-btn {
   background: linear-gradient(135deg, #b58b42, #d7b66f);
   border: 0;
@@ -1675,6 +1701,16 @@ a:hover {
   .navbar-brand:hover,
   .navbar-nav .nav-link {
     color: var(--dark-color);
+  }
+
+  .language-switcher {
+    background: #f8f4ea;
+    border-color: rgba(181, 139, 66, 0.28);
+    margin-bottom: 12px;
+  }
+
+  .language-switcher a {
+    color: var(--primary-color);
   }
 
   .hero {
