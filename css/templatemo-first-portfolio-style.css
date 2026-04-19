@@ -1651,6 +1651,39 @@ a:hover {
   transform: none;
 }
 
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.project-links a {
+  align-items: center;
+  background: rgba(23, 50, 77, 0.06);
+  border: 1px solid rgba(181, 139, 66, 0.28);
+  border-radius: 999px;
+  color: var(--primary-color);
+  display: inline-flex;
+  font-size: 14px;
+  font-weight: var(--font-weight-bold);
+  line-height: 1.25;
+  padding: 10px 15px;
+}
+
+.project-links a::after {
+  content: "\F144";
+  font-family: "bootstrap-icons";
+  font-size: 13px;
+  margin-left: 8px;
+}
+
+.project-links a:hover {
+  background: var(--primary-color);
+  border-color: var(--primary-color);
+  color: #f4d49a;
+}
+
 .contact-info {
   border-radius: 28px;
   padding: 34px;
