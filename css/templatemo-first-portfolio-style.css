@@ -526,6 +526,15 @@ strong {
   min-width: 550px;
 }
 
+.profile-hero-image {
+  border-radius: 42px;
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.18);
+  max-width: 420px;
+  min-width: 360px;
+  object-fit: cover;
+  right: 35px;
+}
+
 .hero svg {
   position: absolute;
   z-index: 2;
@@ -997,6 +1006,11 @@ strong {
   .hero-image {
     min-width: 650px;
   }
+
+  .profile-hero-image {
+    max-width: 440px;
+    min-width: 390px;
+  }
   
   .hero-title,
 	.hero h2 {
@@ -1086,6 +1100,12 @@ strong {
   .hero-text {
     top: 0;
     margin-bottom: 120px;
+  }
+
+  .profile-hero-image {
+    max-width: 360px;
+    min-width: 320px;
+    right: 0;
   }
 
   .about-thumb {
@@ -1182,6 +1202,13 @@ strong {
 
   .hero-image {
     min-width: inherit;
+  }
+
+  .profile-hero-image {
+    border-radius: 28px;
+    max-width: 280px;
+    min-width: inherit;
+    right: 0;
   }
 }
 
