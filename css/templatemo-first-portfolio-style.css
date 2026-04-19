@@ -1918,19 +1918,6 @@ h4 {
   border-color: #fff8e8;
 }
 
-.hero-title-wrap .avatar-image-large {
-  border-width: 5px;
-  height: 152px;
-  object-position: center 18%;
-  width: 152px;
-}
-
-.section-title-wrap .avatar-image {
-  height: 88px;
-  object-position: center 18%;
-  width: 88px;
-}
-
 .section-title-wrap {
   background: linear-gradient(135deg, #12304a, #6f263d);
   border: 1px solid rgba(233, 199, 125, 0.26);
@@ -2071,11 +2058,6 @@ h4 {
   .navbar-brand:hover,
   .navbar-nav .nav-link {
     color: #12304a;
-  }
-
-  .hero-title-wrap .avatar-image-large {
-    height: 128px;
-    width: 128px;
   }
 }
 
